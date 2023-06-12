@@ -1,6 +1,8 @@
 # slackgpt
 Proyecto que envia los mensajes de un canal de slack a chat gpt para que los resuma utilizando las respectivas APIS.
 
+El endpoint al que hay que consultar es un GET "http://localhost:8080/slack/summarize"
+
 Para utilizarlo se deben establecer las variables de entorno:
 
 Establece que modelo de chat gpt utilizar. openai.model=gpt-3.5-turbo
