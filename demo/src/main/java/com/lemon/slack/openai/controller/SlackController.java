@@ -42,7 +42,7 @@ public class SlackController {
     @Autowired
     private RestTemplate gptTemplate;
 
-    @PostMapping("/slack/summarize")
+    @GetMapping("/slack/summarize")
     public String summarizeSlackChannel() {
 
         String slackChannelContent = getSlackChat();
